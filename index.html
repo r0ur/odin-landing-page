@@ -14,40 +14,48 @@
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="navbar">
         <h2>Header Logo</h2>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact Us</a>
+        <div class="nav-links">
+          <a href="#home">Header Link One</a>
+          <a href="#about">Header Link Two</a>
+          <a href="#contact">Header Link Three</a>
+        </div>
       </nav>
     </header>
     <main>
-      <section id="home">
-        <h1>This website is awesome</h1>
-        <p>
-          This website has some subtext that goes here under the main title.
-          It's a smaller font and the color is lower contrast.
-        </p>
-        <button>Sign up</button>
-        <img src="" alt="" />
+      <section class="hero">
+        <div class="hero-content">
+          <h1 class="hero-main-text">This website is awesome</h1>
+          <p class="hero-secondary-text">
+            This website has some subtext that goes here under the main title.
+            It's a smaller font and the color is lower contrast.
+          </p>
+          <button>Sign up</button>
+        </div>
+        <img
+          src="images/placeholder.png"
+          alt="placeholder"
+          class="img-placeholder"
+        />
       </section>
-      <section id="about">
+      <section class="about">
         <h2>Some random information</h2>
-        <div>
-          <div>
-            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+        <div class="img-container">
+          <div class="img-specific">
+            <div class="rectangle"></div>
             <p>This is some subtext under an illustration or image.</p>
           </div>
-          <div>
-            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+          <div class="img-specific">
+            <div class="rectangle"></div>
             <p>This is some subtext under an illustration or image.</p>
           </div>
-          <div>
-            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+          <div class="img-specific">
+            <div class="rectangle"></div>
             <p>This is some subtext under an illustration or image.</p>
           </div>
-          <div>
-            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+          <div class="img-specific">
+            <div class="rectangle"></div>
             <p>This is some subtext under an illustration or image.</p>
           </div>
         </div>
@@ -60,7 +68,7 @@
         </h1>
         <p>-Thor, God of Thunder</p>
       </section>
-      <section id="contact">
+      <section>
         <h2>Call to action! It's time!</h2>
         <p>Sign up for our product by clicking that button right over there!</p>
         <button>Sign up</button>
