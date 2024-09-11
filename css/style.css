@@ -1,0 +1,11 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-weight: 700; /* Usará el peso negrita de Roboto */
+}
+
+p {
+  font-weight: 400; /* Usará el peso regular de Roboto */
+}
