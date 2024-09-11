@@ -1,11 +1,119 @@
 body {
   font-family: "Roboto", sans-serif;
+  margin: 0;
 }
 
-h1 {
-  font-weight: 700; /* Usará el peso negrita de Roboto */
+.hero,
+.navbar,
+.footer {
+  background-color: #1f2937;
+  color: #f9faf8;
 }
 
-p {
-  font-weight: 400; /* Usará el peso regular de Roboto */
+.hero {
+  display: flex;
+  padding-right: 160px;
+  padding-left: 160px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 160px;
+  padding-left: 160px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 32px;
+}
+
+a {
+  color: #f9faf8;
+  text-decoration: none;
+}
+
+.img-placeholder {
+  height: fit-content;
+}
+
+.hero-content {
+  max-width: 550px;
+  gap: 8px;
+}
+
+.header-logo-text,
+.hero-main-text,
+.hero-secondary-text {
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.header-logo-text {
+  font-size: 24px;
+}
+
+.hero-main-text {
+  font-size: 48px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.hero-secondary-text {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border: 0;
+  border-radius: 8px;
+  padding: 8px 24px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.about h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  text-align: center;
+  padding-top: 32px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding-right: 160px;
+  padding-left: 160px;
+}
+
+.img-container {
+  display: flex;
+  gap: 64px;
+  justify-content: center;
+  padding-bottom: 80px;
+}
+
+.img-specific {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 160px;
+}
+
+.rectangle {
+  width: 160px;
+  height: 160px;
+  border: 4px solid #3882f6;
+  border-radius: 16px;
 }
